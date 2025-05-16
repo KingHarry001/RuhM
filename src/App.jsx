@@ -2,9 +2,9 @@ import About from "./componenets/About";
 import Contact from "./componenets/Contact";
 import Features from "./componenets/Features";
 import Footer from "./componenets/Footer";
+import Story from "./componenets/Story";
 import Hero from "./componenets/Hero";
 import Navbar from "./componenets/Navbar";
-import Story from "./componenets/Story";
 
 const App = () => {
   
@@ -13,8 +13,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <Features />
-      <Story />
+      {/* <Features /> */}
+      {/* <Story /> */}
       <Contact />
       <Footer />
     </main>

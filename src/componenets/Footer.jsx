@@ -12,7 +12,7 @@ const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <footer className="w-screen bg-violet-300 py-4 text-black">
+    <footer className="w-screen bg-[#71aa71] py-4 text-black">
       <div className="container mx-auto flex max-sm:flex-col items-center justify-between gap-4 px-4 md:flew-row">
         <p className="text-center text-sm md:text-left">
           @Nova <span id="date"></span>. All right resverved. <br /> By Nexus Design.</p>

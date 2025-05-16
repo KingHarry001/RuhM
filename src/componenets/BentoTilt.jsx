@@ -31,7 +31,7 @@ const BentoTilt = ({ children, onClick, currentIndex, className = "" }) => {
       onClick={onClick}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      className={className}
+      className={`border-green-600 border-[2px] ${className}`}
       style={{ transform: transformStyle, cursor: 'pointer' }}
     >
       {children}

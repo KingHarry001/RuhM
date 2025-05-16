@@ -74,11 +74,11 @@ body {
   }
 
   .hero-heading {
-    @apply uppercase font-zentry font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem];
+    @apply uppercase font-zentry font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[5rem];
   }
 
   .about-subtext {
-    @apply absolute bottom-[-90dvh] md:bottom-[-80vh] left-1/2 w-full max-w-96 -translate-x-1/2 text-center font-circular-web text-lg md:max-w-[34rem] !mb-0;
+    @apply text-center font-circular-web text-lg md:max-w-[34rem] !mb-0;
   }
 
   .about-image {
@@ -105,7 +105,7 @@ body {
   }
 
   .bento-title {
-    @apply uppercase md:text-6xl text-4xl font-black font-zentry;
+    @apply uppercase text-4xl font-black font-zentry;
   }
 
   .story-img-container {
